@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:wallet_dchain/screens/support/transaction_amount.dart';
 
 class PersonalWallet extends StatefulWidget {
   const PersonalWallet({Key? key}) : super(key: key);
@@ -11,37 +12,7 @@ class PersonalWallet extends StatefulWidget {
 class _PersonalWalletState extends State<PersonalWallet> {
   int _currentIndex = 0; 
 
-  Widget TransactionsAmount(
-      {required String amount, required String text, required Color color}) {
-    return Column(
-      children: [
-        Padding(
-          padding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 0.0),
-          child: ListTile(
-            onTap: () {},
-            visualDensity: VisualDensity(horizontal: 0, vertical: -4),
-            leading: Icon(
-              Icons.circle,
-              color: color,
-              size: 10.0,
-            ),
-            trailing: Icon(
-              Icons.arrow_forward_ios
-            ),
-            title: Padding(
-              padding: const EdgeInsets.all(0),
-              child: Text(amount, style: TextStyle(fontSize: 19)),
-            ),
-          ),
-        ),
-        Divider(
-          color: Colors.white,
-          indent: 45,
-          thickness: 0.8,
-        )
-      ],
-    );
-  }
+ 
 
   @override
   Widget build(BuildContext context) {
@@ -169,19 +140,19 @@ class _PersonalWalletState extends State<PersonalWallet> {
         ),
           Column(
             children: [
-              TransactionsAmount(
+              TransactionAmount(
                   amount: "-0.07896730",
                   text: '10 min ago',
                   color: Colors.orange),
-              TransactionsAmount(
+              TransactionAmount(
                   amount: "1.67869789",
                   text: '10 min ago',
                   color: Colors.green),
-              TransactionsAmount(
+              TransactionAmount(
                   amount: "-0.07896730",
                   text: '10 min ago',
                   color: Colors.orange),
-              TransactionsAmount(
+              TransactionAmount(
                   amount: "7.19474987",
                   text: '10 min ago',
                   color: Colors.green),

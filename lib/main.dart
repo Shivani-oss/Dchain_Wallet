@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:wallet_dchain/ui/add_contact.dart';
-import 'package:wallet_dchain/ui/add_password.dart';
-import 'package:wallet_dchain/ui/choose_language.dart';
+import 'package:wallet_dchain/screens/home/add_contact.dart';
+import 'package:wallet_dchain/screens/wallet/add_password.dart';
+import 'package:wallet_dchain/screens/wallet/choose_language.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:wallet_dchain/ui/choose_password.dart';
-import 'package:wallet_dchain/ui/contact_page.dart';
-import 'package:wallet_dchain/ui/double_check.dart';
-import 'package:wallet_dchain/ui/bottom_navigation.dart';
-import 'package:wallet_dchain/ui/import.dart';
-import 'package:wallet_dchain/ui/import_private_key.dart';
-import 'package:wallet_dchain/ui/individual_contact.dart';
-import 'package:wallet_dchain/ui/personal_wallet.dart';
-import 'package:wallet_dchain/ui/recovery_phase.dart';
-import 'package:wallet_dchain/ui/settings.dart';
-import 'package:wallet_dchain/ui/validate_phrase.dart';
+import 'package:wallet_dchain/screens/wallet/choose_password.dart';
+import 'package:wallet_dchain/screens/home/contact_page.dart';
+import 'package:wallet_dchain/screens/wallet/double_check.dart';
+import 'package:wallet_dchain/screens/home/bottom_navigation.dart';
+import 'package:wallet_dchain/screens/wallet/import.dart';
+import 'package:wallet_dchain/screens/wallet/import_private_key.dart';
+import 'package:wallet_dchain/screens/home/individual_contact.dart';
+import 'package:wallet_dchain/screens/home/personal_wallet.dart';
+import 'package:wallet_dchain/screens/wallet/recovery_phase.dart';
+import 'package:wallet_dchain/screens/home/settings.dart';
+import 'package:wallet_dchain/screens/wallet/validate_phrase.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:wallet_dchain/ui/wallet_import.dart';
-import 'package:wallet_dchain/ui/wallet_option.dart';
-import 'package:wallet_dchain/ui/wallet_ready.dart';
-import 'ui/wallet.dart';
+import 'package:wallet_dchain/screens/wallet/wallet_import.dart';
+import 'package:wallet_dchain/screens/home/wallet_option.dart';
+import 'package:wallet_dchain/screens/wallet/wallet_ready.dart';
+import 'screens/wallet/wallet.dart';
 
 
 

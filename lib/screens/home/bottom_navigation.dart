@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:wallet_dchain/ui/contact_page.dart';
-import 'package:wallet_dchain/ui/double_check.dart';
-import 'package:wallet_dchain/ui/home_screen.dart';
+import 'package:wallet_dchain/screens/home/contact_page.dart';
+import 'package:wallet_dchain/screens/wallet/double_check.dart';
+import 'package:wallet_dchain/screens/home/home_screen.dart';
 
 class BottomNavigation extends StatefulWidget {
   const BottomNavigation({Key? key}) : super(key: key);

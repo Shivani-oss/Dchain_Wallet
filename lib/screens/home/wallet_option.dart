@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wallet_dchain/screens/support/settings_detail.dart';
 
 class OptionWallet extends StatefulWidget {
   const OptionWallet({Key? key}) : super(key: key);
@@ -9,38 +10,7 @@ class OptionWallet extends StatefulWidget {
 
 class _OptionWalletState extends State<OptionWallet> {
     
-    
-    Widget SettingsDetail({required String title, required String subtitle}) {
-    return Container(
-      child: Padding(
-        padding: EdgeInsets.fromLTRB(15, 0, 10, 0),
-        child: Column(
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(title),
-                Row(
-                  children: [
-                     Text(subtitle, textAlign: TextAlign.end),
-                      IconButton(
-                      icon: Icon(Icons.arrow_forward_ios),
-                      padding: EdgeInsets.all(0),
-                      onPressed: () {},
-                    ),
-                  ],
-                )
-              ],
-            ),
-            Divider(
-              color: Colors.white,
-              thickness: 0.8,
-            )
-          ],
-        ),
-      ),
-    );
-  }
+  
 
   @override
   Widget build(BuildContext context) {

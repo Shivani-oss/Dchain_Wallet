@@ -97,7 +97,7 @@ class _AddContactState extends State<AddContact> {
                                 style: TextStyle(fontSize: 20)),
                             onPressed: () {
                             
-                                Navigator.pushNamed(context, '/contactpage');
+                                Navigator.pushNamed(context, '/contact');
                              
                             }))
                   ],
